@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "Session Saver",
+    "version": "1.0",
+    "description": "This extension stores the active session!",
+    "icons": {
+        "128": "Logo128.png",
+        "48": "Logo48.png",
+        "16": "Logo16.png"
+    },
+    "browser_action": {
+        "default_icon": "Logo16.png",
+        "default_popup": "session_saver_popup.html"
+    },
+    "options_page": "options.html",
+    "permissions": [
+        "storage",
+        "tabs",
+        "unlimitedStorage"
+    ]
+}

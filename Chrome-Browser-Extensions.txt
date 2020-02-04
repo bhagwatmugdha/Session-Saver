@@ -1,0 +1,39 @@
+Theory regarding developing a Chrome Browser Extension :D
+
+Extension types:
+    1. Browser Action (BA)  -   Tool bar access at all time
+    2. Page Action (PA)     -   Greyed out in tool bar with limited pages' access
+    3. Neither BA nor PA    -   Runs in the background
+
+Manifest file
+    JSON formatted file with info about the extension
+    Mandatory info includes-
+        1. Manifest version
+        2. Name of the extension
+        3. Version of the extension
+    Optional
+        1. Description
+        2. Icons (with different sizes- 128x128px, 48x48px, 16x16px)
+        3. browser_action
+            1. default_popup: which html file pops up
+            2. default_icon: 16x16px
+        4. Permissions
+            1. Chrome Storage
+            2. Notifications
+        5. Options page (opens with right click on the extension)
+            1. options_page: specify a hmtl page that will open
+
+Create a normal HTML, CSS, JS to display the pop and style and add dynamic functionality to it
+
+Storage
+    Use Chrome Storage and APIs for accessing it 
+
+                Chrome Storage
+                    |   ^
+                    |   |
+    Chrome API SET  |   |  Chrome API GET
+                    v   |
+                Button Click
+
+
+                

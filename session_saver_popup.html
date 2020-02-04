@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Session Saver</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <div class="container" style="background-color:black; text-align: center; color: white;">
+        <img src="Logo128.png" alt="Logo">
+        <!-- <h2>Session Saver</h2> -->
+
+        <form class="form-inline">
+            <div class="form-group">
+                <label for="session_name">Session name:</label>
+                <input type="text" class="form-control" id="session_name">
+            </div>
+
+            <button type="submit" id="save_session" class="btn btn-success">Save Session</button>
+        </form>
+
+        <br>
+        
+        <div id="saved_sessions" style="text-align: center;">
+            <!-- <button type="button" id="retrieve_session" class="btn btn-primary">Retrieve Session</button> -->
+        </div>
+
+        <h5>Created by: Mugdha Bhagwat</h5>
+
+        <br>
+    </div>
+    <script src="session_saver_popup.js"></script>
+</body>
+
+</html>
