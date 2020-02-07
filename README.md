@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/bhagwatmugdha/Session-Saver">
-    <img src="Logo128.png" alt="Logo" width="80" height="80">
+    <img src="Logo128.png" alt="Logo">
   </a>
 
   <h1 align="center">Session Saver</h1>
@@ -17,8 +17,9 @@
 Session Saver is a simple chrome extension which allows you to save all the active tabs in the current chrome window and restore them at any time. Currently it supports the following features-
 * Create a new session
 * Restore a session
+  <img src="/UI%20screenshots/Session_saver.png" alt="Logo">
 * Options page (on right click) to delete individual/ all sessions
-
+  <img src="/UI%20screenshots/options_page.png" alt="Logo">
 ## Getting Started
 
 To get a local copy up and running follow these simple steps
